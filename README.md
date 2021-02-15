@@ -5,7 +5,7 @@ performing analysis on kickstarter data to find trends
 ## Overview of Project:
 
 ### Purpose
-  The goal of this analysis was to draw conclusions and further visualize the data on the dataset, \"Kickstarter.xlxs"\.
+  The goal of this analysis was to draw conclusions and further visualize the data on the dataset, \"Kickstarter.xlsx"\.
 ---
 In this challenge, I was trying to help Louise better visualize and understand how other campaigns did based on their launch dates and fundraising goals.  The purpose of this challenge was to collect and organize data in various ways in order to make unreadable data, readable, to our client Louise.
 
