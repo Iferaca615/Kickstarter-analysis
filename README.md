@@ -8,7 +8,7 @@ performing analysis on kickstarter data to find trends
   The goal of this analysis was to draw conclusions and further visualize the data on the dataset, \"Kickstarter.xlsx"\.
 ---
 In this challenge, I was trying to help Louise better visualize and understand how other campaigns did based on their launch dates and fundraising goals.  The purpose of this challenge was to collect and organize data in various ways in order to make unreadable data, readable, to our client Louise.
-## hello
+
 ## Analysis and Challenges
   * I was able to preform my analysis by creating two sheets in [Kickstarter_Challenge](desktop\Kickstarter_Challenge.xlsx), named \"Outcomes Based on Launch Date"\, and \"Outcomes Based on Goals"\.  
       - The first analysis was made using a pivot table to help visualize the number of successful, failed and canceled theater campaigns in regard to their launch month and could be filtered by year as well as by parent category in order to see different types of campaigns and not just theater.
