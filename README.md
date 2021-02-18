@@ -16,6 +16,8 @@ In this challenge, I was trying to help Louise better visualize and understand h
       ### Data Visualizations
       1) ![Theater_Outcomes_Vs_Launch](Theater_Outcomes_Vs_Launch.png)
       2) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+      3) ![outcomes_vs_goals_table](outcomes_vs_goals_table.png)
+
 ---
 ### Challenges
 1) bash error:  file or directory does not exist:
