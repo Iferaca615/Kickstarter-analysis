@@ -7,7 +7,7 @@ performing analysis on kickstarter data to find trends
 ### Purpose
   The goal of this analysis was to draw conclusions and further visualize the data on the dataset, \"Kickstarter.xlsx"\.
 ---
-In this challenge, I was trying to help Louise better visualize and understand how other campaigns did based on their launch dates and fundraising goals.  The purpose of this challenge was to collect and organize data in various ways in order to make unreadable data, readable, to our client Louise.
+In this challenge, I was trying to help Louise better visualize and understand how other campaigns did based on their launch dates and fundraising goals.  The purpose of this challenge was to collect and organize data in various ways in order to make unreadable data, readable, to our client Louise.  From the data, we were able to draw various conclusions. 
 
 ## Analysis and Challenges
 
@@ -17,6 +17,13 @@ In this challenge, I was trying to help Louise better visualize and understand h
       #### Data Visualizations
       1) ![Theater_Outcomes_Vs_Launch](Theater_Outcomes_Vs_Launch.png)
       2) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
+	
+	#### Challenges
+During this module I did encounter a few issues, however for the most part the issues were with my computer and not with the actual applications of the module. 
+---
+	*-bash error:  file or directory does not exist:
+		- this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, \"Analytics_projects'\ was not reachable using my \"cd"\ command.  I tried using \"pwd"\ to see which directory I was in and then used \"ls"\ while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with \git commit\. 
+	#### Solution: I created a new directory using \"mkdir"\ and then transferred my files from \"Analytics_projects"\ into the new directory.
       
 ### Analysis of Outcomes Based on Launch Date
 
