@@ -16,25 +16,28 @@ In this challenge, I was trying to help Louise better visualize and understand h
       ### Data Visualizations
       1) ![Theater_Outcomes_Vs_Launch](Theater_Outcomes_Vs_Launch.png)
       2) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
-      3) ![outcomes_vs_goals_table](outcomes_vs_goals_table.png)
+      3) ![outcomes_vs_goals table](outcomes_vs_goals_table.png)
 
 ---
 ### Challenges
 1) bash error:  file or directory does not exist:
 	* this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, "Analytics_projects' was not reachable using my "cd" command.  I tried using "pwd" to see which directory I was in and then used "ls" while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with "git commit". 	
-		- Solution: I created a new directory using "mkdir" and then transferred my files from \"Analytics_projects" into the new directory.  Once I did this, I was able to access the correct directory and was able to copy my repository into it.  From there I used my text editor to edit my README file and make changes to my files and then add, commit, and push my changes to my GitHub repository.
+		- **Solution:** I created a new directory using "mkdir" and then transferred my files from \"Analytics_projects" into the new directory.  Once I did this, I was able to access the correct directory and was able to copy my repository into it.  From there I used my text editor to edit my README file and make changes to my files and then add, commit, and push my changes to my GitHub repository.
 2) ssh key: 
 	* When I went to copy my repository to Kickstarter-analytics directory I realized I didn't make an SSH key.  After I went through all of the steps to create the key, when I went to clone my repository I had an error come up regarding an invalid ssh key.  I was confused because the key uploaded into GitHub just fine so I didn't understand what the issue was.
-		- Solution:  Instead of using the SSH key, I ended up using the HTTPS key to clone my repository into my Kickstarter-analysis directory and from there I was able to get all of my files and updates to register to GitHub.
-
+		- **Solution:**  Instead of using the SSH key, I ended up using the HTTPS key to clone my repository into my Kickstarter-analysis directory and from there I was able to get all of my files and updates to register to GitHub.
+3) Readme File:
+	* While writing my README file I was having some difficulties with the formatting of my paragraphs as well as getting my links to the PNG pictures to work. My PNG files ended up working under the header, "Data Visualizations", however when I tried inserting the same file down into another header, the link wouldn't work.
+		- **Solution:**  I didn't end up getting the link to work under a new header, so I just included all of my images under the header data visualizations. I believe the issue was due to the spacing of my tab key.  When I had first started writing my README file I had done so within GitHub using the edit button.  I would then just commit my changes to GitHub from there.  However, after I got my git clone to work and I was able to get my files in my repository, I started writing my README file in Text editor and using git commit to commit to my repository.  I think the spacing is a little different in text editor than it is on Github.
 
 ### Analysis of Outcomes Based on Launch Date
 
 ### Analysis of Outcomes Based on Goals
 
-* The data is being displayed as fundraising goal range versus percentage of campaigns succeeded/failed.  Looking at \"outcomes_vs_goals_table.png"\ we were able to see that as the range of the goals increased the number of fundraising campaigns in that category fell  in the single digits range. Because of the lack of data points in these ranges, the data from around a goal of 20,000 is less meaningful than the data in the ranges <1000 to 15000.
-* You can see from \"Outcomes_vs_Goals.png"\ that the relationship between fundraising goal and percent success rate is an inverse relationship.  This shows that as the fundraising goals increase in amount, the percent rate of those campaigns succeeding decreases.  
-
+* The data is being displayed as fundraising goal range versus percentage of campaigns succeeded/failed.  Looking at \"outcomes_vs_goals_table.png" we were able to see that as the range of the goals increased the number of fundraising campaigns in that category fell  in the single digits range. Because of the lack of data points in these ranges, the data from around a goal of 20,000 is less meaningful than the data in the ranges <1,000 to 15,000.
+	- You can also see that far fewer campaigns are launched with higher funding goals, and that instead, most campaigns are launched with goals under 2,000.
+* You can see from \"Outcomes_vs_Goals.png" that the relationship between fundraising goal and percent success rate is an inverse relationship.  This shows that as the fundraising goals increase in amount, the percent rate of those campaigns succeeding decreases.  
+*
 ### Challenges and Difficulties Encountered
 
 ## Results
