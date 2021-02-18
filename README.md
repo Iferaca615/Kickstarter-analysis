@@ -29,12 +29,11 @@ In this challenge, I was trying to help Louise better visualize and understand h
 
 
 ### Analysis of Outcomes Based on Launch Date
-      ![outcomes_vs_goals_table](outcome_vs_goals_table.png)
----
+
+### Analysis of Outcomes Based on Goals
+
 * The data is being displayed as fundraising goal range versus percentage of campaigns succeeded/failed.  Looking at \"outcomes_vs_goals_table.png"\ we were able to see that as the range of the goals increased the number of fundraising campaigns in that category fell  in the single digits range. Because of the lack of data points in these ranges, the data from around a goal of 20,000 is less meaningful than the data in the ranges <1000 to 15000.
 * You can see from \"Outcomes_vs_Goals.png"\ that the relationship between fundraising goal and percent success rate is an inverse relationship.  This shows that as the fundraising goals increase in amount, the percent rate of those campaigns succeeding decreases.  
- 
-### Analysis of Outcomes Based on Goals
 
 ### Challenges and Difficulties Encountered
 
