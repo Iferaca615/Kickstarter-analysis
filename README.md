@@ -17,20 +17,22 @@ In this challenge, I was trying to help Louise better visualize and understand h
       1) ![Theater_Outcomes_Vs_Launch](Theater_Outcomes_Vs_Launch.png)
       2) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 ---
-	### Challenges
-1) bash error:  file or directory does not exist:
-	* this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, "Analytics_projects' was not reachable using my "cd" command.  I tried using "pwd" to see which directory I was in and then used "ls" while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with "git commit". 	
-		-Solution: I created a new directory using "mkdir" and then transferred my files from \"Analytics_projects" into the new directory.  Once I did this, I was able to access the correct directory and was able to copy my repository into it.  From there I used my text editor to edit my README file and make changes to my files and then add, commit, and push my changes to my GitHub repository.
-2) ssh key: 
-	*When I went to copy my repository to Kickstarter-analytics directory I realized I didn't make an SSH key.  After I went through all of the steps to create the key, when I went to clone my repository I had an error come up regarding an invalid ssh key.  I was confused because the key uploaded into GitHub just fine so I didn't understand what the issue was.
-		-Solution:  Instead of using the SSH key, I ended up using the HTTPS key to clone my repository into my Kickstarter-analysis directory and from there I was able to get all of my files and updates to register to GitHub.
+### Challenges
+
+	1) bash error:  file or directory does not exist:
+		* this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, "Analytics_projects' was not reachable using my "cd" command.  I tried using "pwd" to see which directory I was in and then used "ls" while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with "git commit". 	
+			-Solution: I created a new directory using "mkdir" and then transferred my files from \"Analytics_projects" into the new directory.  Once I did this, I was able to access the correct directory and was able to copy my repository into it.  From there I used my text editor to edit my README file and make changes to my files and then add, commit, and push my changes to my GitHub repository.
+	2) ssh key: 
+		* When I went to copy my repository to Kickstarter-analytics directory I realized I didn't make an SSH key.  After I went through all of the steps to create the key, when I went to clone my repository I had an error come up regarding an invalid ssh key.  I was confused because the key uploaded into GitHub just fine so I didn't understand what the issue was.
+			- Solution:  Instead of using the SSH key, I ended up using the HTTPS key to clone my repository into my Kickstarter-analysis directory and from there I was able to get all of my files and updates to register to GitHub.
 
 
 ### Analysis of Outcomes Based on Launch Date
+
 	1) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 	2) ![outcomes_vs_goals_table](outcome_vs_goals_table.png)
 ---
-*The data is being displayed as fundraising goal range versus percentage of campaigns succeeded/failed.  Looking at \"outcomes_vs_goals_table.png"\ we were able to see that as the range of the goals increased the number of fundraising campaigns in that category fell  in the single digits range. Because of the lack of data points in these ranges, the data from around a goal of 20,000 is less meaningful than the data in the ranges <1000 to 15000.
+* The data is being displayed as fundraising goal range versus percentage of campaigns succeeded/failed.  Looking at \"outcomes_vs_goals_table.png"\ we were able to see that as the range of the goals increased the number of fundraising campaigns in that category fell  in the single digits range. Because of the lack of data points in these ranges, the data from around a goal of 20,000 is less meaningful than the data in the ranges <1000 to 15000.
 * You can see from \"Outcomes_vs_Goals.png"\ that the relationship between fundraising goal and percent success rate is an inverse relationship.  This shows that as the fundraising goals increase in amount, the percent rate of those campaigns succeeding decreases.  
  
 ### Analysis of Outcomes Based on Goals
