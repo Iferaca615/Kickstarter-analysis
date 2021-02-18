@@ -27,7 +27,7 @@ In this challenge, I was trying to help Louise better visualize and understand h
 			- Solution:  Instead of using the SSH key, I ended up using the HTTPS key to clone my repository into my Kickstarter-analysis directory and from there I was able to get all of my files and updates to register to GitHub.
 
 
-	### Analysis of Outcomes Based on Launch Date
+### Analysis of Outcomes Based on Launch Date
 	1) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 	2) ![outcomes_vs_goals_table](outcome_vs_goals_table.png)
 ---
