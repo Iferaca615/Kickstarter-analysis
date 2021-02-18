@@ -18,11 +18,9 @@ In this challenge, I was trying to help Louise better visualize and understand h
       2) ![Outcomes_vs_Goals](Outcomes_vs_Goals.png)
 	
 	### Challenges
-During this module I did encounter a few issues, however for the most part the issues were with my computer and not with the actual applications of the module. 
-	1) bash error:  file or directory does not exist:
-		* this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, \"Analytics_projects' was not reachable using my \"cd" command.  I tried using \"pwd" to see which directory I was in and then used \"ls" while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with \"git commit". 
-
-	### Solutions
+1) bash error:  file or directory does not exist:
+	* this was the main error that I ran into when I was trying to use git commit to commit my files to my project repository.  The folder that I created on my desktop named, \"Analytics_projects' was not reachable using my \"cd" command.  I tried using \"pwd" to see which directory I was in and then used \"ls" while in the desktop directory to see if the folder would show up.  The file was shown under Desktop, but for some reason was still unreachable to be used with \"git commit". 	
+---s
 I created a new directory using \"mkdir" and then transferred my files from \"Analytics_projects" into the new directory.  Once I did this, I was able to access the correct directory and was able to copy my repository into it.  From there I used my text editor to edit my README file and make changes to my files and then add, commit, and push my changes to my GitHub repository.
       
 ### Analysis of Outcomes Based on Launch Date
